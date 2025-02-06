@@ -1,0 +1,21 @@
+[package]
+name = "execution-time"
+authors = ["Claudio F S Rodrigues <claudiofsrodrigues@gmail.com>"]
+repository = "https://github.com/claudiofsr/execution-time"
+homepage = "https://github.com/claudiofsr/execution-time"
+documentation = "https://docs.rs/execution-time"
+description = "simple way to measure and display the execution time"
+license = "BSD-3-Clause"
+readme = "README.md"
+categories = ["command-line-utilities"]
+keywords = [
+    "execution",
+    "time",
+]
+version = "0.3.1"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[dependencies]
